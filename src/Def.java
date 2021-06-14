@@ -48,24 +48,24 @@ public class Def {
     public static final int RECTANGLE_WELL_DONE_WIDTH  = 20;
     public static final int RECTANGLE_WELL_DONE_HEIGHT = 20;
 
-    public static final int FONT_SIZE = 45;
+    public static final int FONT_SIZE = 50;
 
     public static final String GAME_OVER = "GAME OVER!";
-    public static final int DRAW_GAME_OVER_X = 150;
-    public static final int DRAW_GAME_OVER_Y = 680;
+    public static final int DRAW_GAME_OVER_X = 70;
+    public static final int DRAW_GAME_OVER_Y = 318;
 
     public static final String WELL_DONE = "WELL DONE!";
-    public static final int WELL_DONE_POSITION_X = 120;
-    public static final int WELL_DONE_POSITION_Y = 680;
+    public static final int WELL_DONE_POSITION_X = 70;
+    public static final int WELL_DONE_POSITION_Y = 318;
 
     public static final int SIZE_ARRAY = 16;
 
     public static final String MY_FIRST_GAME = "MY FIRST GAME";
-    public static final int MY_FIRST_GAME_X = 100;
+    public static final int MY_FIRST_GAME_X = 60;
     public static final int MY_FIRST_GAME_Y = 630;
 
     public static final int CUBE_SPEED = 35;
-    public static final int TIME_TEXT_MESSAGE = 3000;
+    public static final int TIME_TEXT_MESSAGE = 2500;
     public static final int SCREEN_BOUND = 10;
 
     public static final int TEXT_EXPLAIN_GAME_X = X;
@@ -74,6 +74,7 @@ public class Def {
     public static final int TEXT_EXPLAIN_GAME_HEIGHT = 30;
 
     public static final int TEXT_EXPLAIN_GAME_Y_2 = 520;
+    public static final int ZERO = 0;
 }
 
 

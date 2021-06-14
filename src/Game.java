@@ -18,7 +18,7 @@ public class Game extends JFrame {
         this.setSize(Def.GAME_WIDTH, Def.GAME_HEIGHT);
         this.setLocationRelativeTo(null);
         this.setLayout(null);
-        this.setTitle("Game");
+        this.setTitle("Maze Game");
         this.setResizable(false);
 
         this.gameOver = false;
@@ -36,6 +36,9 @@ public class Game extends JFrame {
 
         PlayerMovement playerMovement = new PlayerMovement(this.cube);
         this.addKeyListener(playerMovement);
+        GameScene gameScene = new GameScene();
+        gameScene.setBounds(Def.ZERO,Def.ZERO,Def.GAME_WIDTH,Def.GAME_HEIGHT);
+        this.add(gameScene);
         mainGameLoop();
 
     }
